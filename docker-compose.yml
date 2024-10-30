@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   orders-db:
-    image: postgres:14.13
+    image: postgres:16.2
     container_name: orders-database
     restart: always
     environment:
